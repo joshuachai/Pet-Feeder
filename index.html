@@ -8,7 +8,6 @@
     html, body {
       margin: 0;
       padding: 0;
-      width: 100%;
       height: 100vh;
       overflow: hidden;
     }
@@ -20,10 +19,10 @@
   </style>
 </head>
 <body>
-  <!-- 关键在这里，把 /view?usp=xxx 改成 /preview -->
   <iframe
-    src="https://drive.google.com/file/d/1UFvrxJT2jtk3GMg1NbIBBgA2_xamnFux/preview"
-    allow="autoplay"
+    src="https://mozilla.github.io/pdf.js/web/viewer.html?
+      file=https://drive.google.com/uc?export=download&id=1UFvrxJT2jtk3GMg1NbIBBgA2_xamnFux
+      #zoom=page-width"
     allowfullscreen>
   </iframe>
 </body>
